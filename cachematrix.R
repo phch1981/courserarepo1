@@ -36,8 +36,3 @@ cacheSolve <- function(x, ...) {
     x$setinverse
     a
 }
-
-## Testing the result
-matrixtest <- matrix(rnorm(16),4,4)
-matrixtest1 <- makeCacheMatrix(matrixtest)
-cacheSolve(matrixtest1)
